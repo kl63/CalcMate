@@ -61,6 +61,12 @@ Use `ContentView.swift` to integrate the SwiftUI interface.
 - Press `Cmd + R` in Xcode.  
 - The app will display a simple calculator UI with a text field and a "Calculate" button.
 
+## 🎥 Demo
+Check out a quick preview of **CalcMate** in action:
+
+![CalcMate Demo](/CalcMate_Demo.gif)
+
+
 ## ✅ Automated Testing (GitHub Actions)
 This project includes GitHub Actions to automatically run tests on each push and pull request.
 
