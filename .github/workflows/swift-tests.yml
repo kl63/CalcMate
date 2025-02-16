@@ -1,0 +1,29 @@
+name: Swift Tests
+
+on:
+  push:
+    branches:
+      - main
+      - development
+  pull_request:
+    branches:
+      - main
+      - development
+
+jobs:
+  test:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Swift (if needed)
+        run: |
+          swift --version
+
+      - name: Build the Project
+        run: swift build
+
+      - name: Run Tests
+        run: swift test
