@@ -20,6 +20,12 @@ struct ContentView: View {
             VStack(spacing: 12) {
                 Spacer()
 
+                // Display Calculator Name
+                Text("CalcMate")
+                    .foregroundColor(.white)
+                    .font(.system(size: 40, weight: .bold))
+                    .padding(.bottom, 10)
+
                 // Display input and result
                 HStack {
                     Spacer()
@@ -32,9 +38,9 @@ struct ContentView: View {
                 .padding()
 
                 // Calculator buttons
-                ForEach(buttons, id: \.self) { row in
+                ForEach(buttons.indices, id: \.self) { rowIndex in
                     HStack(spacing: 12) {
-                        ForEach(row, id: \.self) { button in
+                        ForEach(buttons[rowIndex], id: \.title) { button in
                             CalculatorButtonView(button: button) {
                                 self.handleInput(button)
                             }
