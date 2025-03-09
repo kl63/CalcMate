@@ -64,7 +64,7 @@ Use `ContentView.swift` to integrate the SwiftUI interface.
 ## 🎥 Demo
 Check out a quick preview of **CalcMate** in action:
 
-![CalcMate Demo](/CalcMate_Demo.gif)
+![CalcMate Demo](/CalcMate_Demo_v2.gif)
 
 
 ## ✅ Automated Testing (GitHub Actions)
@@ -114,6 +114,14 @@ jobs:
 1. Go to your repository  
 2. Click **Actions**  
 3. See **Swift Tests** running automatically! 🎉  
+
+## 🎤 Presentation
+I presented my development setup and demoed **CalcMate** in class. You can view my presentation slides here:  
+📎 [CalcMate Presentation](https://docs.google.com/presentation/d/1Ypw2x5j6gPzTJn_WSDVnenUc3kw-jxVtMOM46bIDW0k/edit?usp=sharing)
+
+## 🎨 Figma Design
+I created a Figma prototype for the project to visualize the UI/UX design.  
+📌 View the design here: [Figma Project Link](https://www.figma.com/design/pESe1B5Fc6L89Hy9aoBEdk/IS-322-CalcMate-Figma?node-id=2401-21842&t=777dJLcBr5e1UI6h-1)
 
 ## 👨‍💻 Contributing
 Want to improve **CalcMate**? Feel free to:  
